@@ -1,6 +1,32 @@
 {
   "version": 1,
   "entries": {
+    "address-findings": {
+      "source": "https://github.com/entireio/skills/skills/address-findings",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.013032-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/address-findings",
+      "version": "11902e2",
+      "tree_hash": "46c7f1b49ada037a4577eef9a9155de78a3ccbab",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:885e0768fb732eeb12405f32d026462d516919a288686d8126eedfcfa5599253"
+      }
+    },
+    "explain": {
+      "source": "https://github.com/entireio/skills/skills/explain",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.061987-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/explain",
+      "version": "11902e2",
+      "tree_hash": "913bff01b01be99d614e28717cb4a2552b072f76",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:27df00caeb6ac004ba4b389734ec009f05cb8576b53fe924ed165804d65f9f39"
+      }
+    },
     "layered-rails": {
       "source": "https://github.com/palkan/layered-rails-skills/layered-rails/skills/layered-rails",
       "type": "github-subdir",
@@ -70,6 +96,98 @@
         "workflows/spec-test.md": "sha256:689f9e7ba1df0084c6893dcd2d219e15f63c451a1bb28037a46c67e744307892"
       }
     },
+    "recall": {
+      "source": "https://github.com/entireio/skills/skills/recall",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.11365-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/recall",
+      "version": "11902e2",
+      "tree_hash": "03b5c96416ad73a6972a4744d61d88d10799e113",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:d56489610f4eb82410471e09d5b8f5cb331ea5ade523781b6cc2707e7dd17402"
+      }
+    },
+    "replay": {
+      "source": "https://github.com/entireio/skills/skills/replay",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.165231-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/replay",
+      "version": "11902e2",
+      "tree_hash": "0ef500be67c8a14e4005423f01d10da5aa4ff3ab",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:dcd2a003d24a78db76761c9e64101e4d046c444a406ce0b9a55761eb460b504f"
+      }
+    },
+    "review": {
+      "source": "https://github.com/entireio/skills/skills/review",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.225738-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/review",
+      "version": "11902e2",
+      "tree_hash": "186df4e29e932fde57941a136b9baf78dae6c389",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:cdde4df781a97fa8de2bbc59788c7d223934380eb7d232e75f0cb3e3f28fac4a",
+        "references/review-rules.md": "sha256:424aa6affe1716fc33379035515140cc97e599c570cb3d37a3239d18c44a1cb7"
+      }
+    },
+    "search": {
+      "source": "https://github.com/entireio/skills/skills/search",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.271212-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/search",
+      "version": "11902e2",
+      "tree_hash": "7807ba09afe2b2fab74d1be1c6beb31f0c605e70",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:5b446f81ef283b0938f3cfd8877f6eb311c353ebd710c813650fa43973f026f9"
+      }
+    },
+    "session-crosslink": {
+      "source": "https://github.com/entireio/skills/skills/session-crosslink",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.324284-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/session-crosslink",
+      "version": "11902e2",
+      "tree_hash": "7a98eda999c5e46d8cded97249d707c2a92f2870",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:25aa029240ed83d8cfd1c19fc079fbb95bec7ede160c7aa77db58ff1de49e5e8"
+      }
+    },
+    "session-handoff": {
+      "source": "https://github.com/entireio/skills/skills/session-handoff",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.373995-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/session-handoff",
+      "version": "11902e2",
+      "tree_hash": "f2dd4b3484540b9519295d9a06f1308c959bc264",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:c1e4799cd74a86df8288593b41d011813b516880a14f8f9ca7ccf77027e3ed5a"
+      }
+    },
+    "session-to-skill": {
+      "source": "https://github.com/entireio/skills/skills/session-to-skill",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.420416-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/session-to-skill",
+      "version": "11902e2",
+      "tree_hash": "0ec52f40a7808deeed6ca26a7b12daf5d8e76ae4",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:ec78fef3b093d515014c8094b2ff85d858d73502653d18acdb402963a4b6f2fc"
+      }
+    },
     "skillshare": {
       "source": "https://github.com/runkids/skillshare.git/skills/skillshare",
       "type": "github-subdir",
@@ -99,6 +217,45 @@
         "references/targets.md": "sha256:336a1e874696111c27102f07d9c0f5299d0856fc47707f49c4d355383c12f822",
         "references/trash.md": "sha256:e53ddc74ccf633d1c67481e616df584542dd882bac3a10e0857459628322f219",
         "scripts/run.sh": "sha256:e434ebdb7d3ae0b37c00ddc36687bc975da9e766b8cb863f9aed9a624ebbdfa9"
+      }
+    },
+    "teach": {
+      "source": "https://github.com/entireio/skills/skills/teach",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.46571-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/teach",
+      "version": "11902e2",
+      "tree_hash": "39c59134ce8638acb4b3ce6a617b90358b993566",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:8cd6cecf7be1d784fd7a0967bb809c7fa6f419417b931219a1df9743d11bba06"
+      }
+    },
+    "using-entire": {
+      "source": "https://github.com/entireio/skills/skills/using-entire",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.512522-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/using-entire",
+      "version": "11902e2",
+      "tree_hash": "aa6423c597e971b6d5f52385dbf484273b9c2b1f",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:aab624ca35cba8c1aafeadeca01db3157acd42ab14515a7b4348c5e4be60353d"
+      }
+    },
+    "what-happened": {
+      "source": "https://github.com/entireio/skills/skills/what-happened",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T17:49:48.559464-03:00",
+      "repo_url": "https://github.com/entireio/skills.git",
+      "subdir": "skills/what-happened",
+      "version": "11902e2",
+      "tree_hash": "fd054cd1ff17ff58f2e95685b89f9852a9326d44",
+      "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
+      "file_hashes": {
+        "SKILL.md": "sha256:c4f21d0ddcb9a766e481e50e3de6cf52634eaeef8f6631bbc432984b840498dc"
       }
     }
   },
