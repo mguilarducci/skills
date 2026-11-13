@@ -39,13 +39,11 @@ Turn a brief description into a short, clear intent and record it as an intent-o
 
    Then ask the person to approve or request changes. The repository is shown, not asked about. On requested changes, apply them and show the whole review again. Repeat until approved.
 
-4. **Create the trail.** Only after approval.
-   - Run `entire agent-help trail create` first and take the flags from it. Don't guess flags.
+4. **Create the trail.** Only after approval, following the `bonde-trail` skill.
    - Create an intent-only trail (no branch) in the current repository, with the approved title, type, priority, and body.
    - The body is sent exactly as reviewed. It starts with the frontmatter block, including both `---` lines, then a blank line, then the description.
-   - `entire trail` commands need network and keyring access. If a sandbox blocks them (keychain or network error), ask to run unsandboxed. Don't run `entire login`.
 
-5. **Report.** Print the trail number and URL (from the create output, or `entire trail show`), and the next step: use the `bonde-stages` skill to get the next command after `intent-recorded`, and print it followed by the trail number:
+5. **Report.** Print the trail number and URL (from the create output, or `entire trail show`), and the next step: use the `bonde-config` skill to get the next command after `intent-recorded`, and print it followed by the trail number:
 
    ```
    <next command> <trail number>

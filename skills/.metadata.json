@@ -15,31 +15,16 @@
       }
     },
     "bonde-intent-create": {
-      "source": "https://github.com/mguilarducci/bonde-skills/skills/bonde-intent-create",
+      "source": "https://github.com/mguilarducci/bonde-skills.git/skills/bonde-intent-create",
       "type": "github-subdir",
-      "installed_at": "2026-11-13T14:49:48.707725997-03:00",
+      "installed_at": "2026-11-13T15:33:47.555958487-03:00",
       "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
       "subdir": "skills/bonde-intent-create",
-      "version": "7cbc1f5",
-      "tree_hash": "47e6dbd80b927bf5e2d5159d75d84c2a207a02ca",
-      "commit": "7cbc1f5f18c2d4dc847efe01bc41f9b78ea6cbb6",
+      "version": "9e137cc",
+      "tree_hash": "55a2816983e11947f1634a122c8bd540c5766b60",
+      "commit": "9e137ccd1c314d52ae06335af2a492c0fdfb891e",
       "file_hashes": {
-        "SKILL.md": "sha256:82665518e26e014d449b00f76b62e392b593aeb6248e90571c0136e51aa9e634"
-      }
-    },
-    "bonde-stages": {
-      "source": "https://github.com/mguilarducci/bonde-skills/skills/bonde-stages",
-      "type": "github-subdir",
-      "installed_at": "2026-11-13T14:49:48.725061401-03:00",
-      "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
-      "subdir": "skills/bonde-stages",
-      "version": "7cbc1f5",
-      "tree_hash": "235811f1d8d029729037c601f205258116f09e34",
-      "commit": "7cbc1f5f18c2d4dc847efe01bc41f9b78ea6cbb6",
-      "file_hashes": {
-        "SKILL.md": "sha256:705c1cff2c141f33f9722d522a5bc65b84b340abb5432e536a680b6a0f6c5f07",
-        "flow.yaml": "sha256:382f21c9782ed8e691abe9e9ca4f3c238957b1b7bf4269283a3998152bedc91c",
-        "scripts/flow.sh": "sha256:ca2a0dc2bb9ba575b2217bdfeb4d05a2e6ff26a5ca7a109ef13ab8bf471bbc9b"
+        "SKILL.md": "sha256:a65f94ec915d4a5d3e1836136a652607eb53dfc03312b981f0e543e9a1829112"
       }
     },
     "explain": {
@@ -153,7 +138,7 @@
       "installed_at": "2026-11-13T14:50:10.268265757-03:00",
       "repo_url": "https://github.com/runkids/skillshare.git",
       "subdir": "skills/skillshare",
-      "version": "d04d04f",
+      "version": "fab72f7",
       "tree_hash": "16ebf72c5d345fa0b456a431f19b5a01489cecfd",
       "commit": "d04d04fd93253725166b6ca86c8567dbca532a94",
       "file_hashes": {
