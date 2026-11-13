@@ -14,17 +14,85 @@
         "SKILL.md": "sha256:885e0768fb732eeb12405f32d026462d516919a288686d8126eedfcfa5599253"
       }
     },
+    "bonde-brainstorming": {
+      "source": "github.com/mguilarducci/bonde-skills/skills/bonde-brainstorming",
+      "type": "github-subdir",
+      "installed_at": "2026-11-13T17:18:40.399556744-03:00",
+      "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
+      "subdir": "skills/bonde-brainstorming",
+      "version": "4feaae0",
+      "tree_hash": "db1fafb24187086ebc025895b1e4100ca591547d",
+      "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
+      "file_hashes": {
+        "SKILL.md": "sha256:e543c5c5f24aca64a161ddad78c3b133d13bf11049033b4c6b8298a62a8aa307",
+        "scripts/gate.sh": "sha256:39aaa6e93cf76f3d383c1b156c614f4a36470645792d0f0d16ab2f957f3ab55a"
+      }
+    },
+    "bonde-config": {
+      "source": "github.com/mguilarducci/bonde-skills/skills/bonde-config",
+      "type": "github-subdir",
+      "installed_at": "2026-11-13T17:18:40.417919984-03:00",
+      "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
+      "subdir": "skills/bonde-config",
+      "version": "4feaae0",
+      "tree_hash": "d32a8aeaa87e5aabbfa0b3b39923ebfa44c87a7e",
+      "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
+      "file_hashes": {
+        "SKILL.md": "sha256:d96c9cdd481993a94e887650c8ac311274e0e775f99fcc4072e95cf82dee9a6f",
+        "config.yaml": "sha256:d27a012ddb811ddf6e8a6e602d026b9afcdb160a221d8134947f75f01632e18e",
+        "scripts/config.sh": "sha256:606b3492b00974430bb53a76ecf5b4313997c4e71383f8e85f37ae4e1a5fdfc4"
+      }
+    },
     "bonde-intent-create": {
       "source": "https://github.com/mguilarducci/bonde-skills.git/skills/bonde-intent-create",
       "type": "github-subdir",
-      "installed_at": "2026-11-13T15:33:47.555958487-03:00",
+      "installed_at": "2026-11-13T17:18:42.615489813-03:00",
       "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
       "subdir": "skills/bonde-intent-create",
-      "version": "9e137cc",
+      "version": "4feaae0",
       "tree_hash": "55a2816983e11947f1634a122c8bd540c5766b60",
-      "commit": "9e137ccd1c314d52ae06335af2a492c0fdfb891e",
+      "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
       "file_hashes": {
         "SKILL.md": "sha256:a65f94ec915d4a5d3e1836136a652607eb53dfc03312b981f0e543e9a1829112"
+      }
+    },
+    "bonde-intent-enrichment": {
+      "source": "github.com/mguilarducci/bonde-skills/skills/bonde-intent-enrichment",
+      "type": "github-subdir",
+      "installed_at": "2026-11-13T17:18:40.437652981-03:00",
+      "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
+      "subdir": "skills/bonde-intent-enrichment",
+      "version": "4feaae0",
+      "tree_hash": "83a5ee20d3bf991f578d572175642725ff598129",
+      "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
+      "file_hashes": {
+        "SKILL.md": "sha256:55e60f1c3fc5697574cf7e13411a06ed87bcf527df36ce9a1c0a2943f15a9cd2"
+      }
+    },
+    "bonde-record": {
+      "source": "github.com/mguilarducci/bonde-skills/skills/bonde-record",
+      "type": "github-subdir",
+      "installed_at": "2026-11-13T17:18:40.453320743-03:00",
+      "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
+      "subdir": "skills/bonde-record",
+      "version": "4feaae0",
+      "tree_hash": "8e0be352af1ebd0380cb058b1d0e9916a6cc319e",
+      "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
+      "file_hashes": {
+        "SKILL.md": "sha256:a6da96ed13586d084e9baef6cdbb06d4f3897205e9478baba9c6ea344c145f38"
+      }
+    },
+    "bonde-trail": {
+      "source": "github.com/mguilarducci/bonde-skills/skills/bonde-trail",
+      "type": "github-subdir",
+      "installed_at": "2026-11-13T17:18:40.464107003-03:00",
+      "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
+      "subdir": "skills/bonde-trail",
+      "version": "4feaae0",
+      "tree_hash": "16e2145e2509fe1e1c12dd850506bc23d0f8d919",
+      "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
+      "file_hashes": {
+        "SKILL.md": "sha256:b48b15abb9930995f718cc1e73db7e9e3993ab06ed4120839105b4951eae1fc0"
       }
     },
     "explain": {
