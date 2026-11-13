@@ -14,6 +14,34 @@
         "SKILL.md": "sha256:885e0768fb732eeb12405f32d026462d516919a288686d8126eedfcfa5599253"
       }
     },
+    "bonde-intent-create": {
+      "source": "https://github.com/mguilarducci/bonde-skills/skills/bonde-intent-create",
+      "type": "github-subdir",
+      "installed_at": "2026-11-13T14:49:48.707725997-03:00",
+      "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
+      "subdir": "skills/bonde-intent-create",
+      "version": "7cbc1f5",
+      "tree_hash": "47e6dbd80b927bf5e2d5159d75d84c2a207a02ca",
+      "commit": "7cbc1f5f18c2d4dc847efe01bc41f9b78ea6cbb6",
+      "file_hashes": {
+        "SKILL.md": "sha256:82665518e26e014d449b00f76b62e392b593aeb6248e90571c0136e51aa9e634"
+      }
+    },
+    "bonde-stages": {
+      "source": "https://github.com/mguilarducci/bonde-skills/skills/bonde-stages",
+      "type": "github-subdir",
+      "installed_at": "2026-11-13T14:49:48.725061401-03:00",
+      "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
+      "subdir": "skills/bonde-stages",
+      "version": "7cbc1f5",
+      "tree_hash": "235811f1d8d029729037c601f205258116f09e34",
+      "commit": "7cbc1f5f18c2d4dc847efe01bc41f9b78ea6cbb6",
+      "file_hashes": {
+        "SKILL.md": "sha256:705c1cff2c141f33f9722d522a5bc65b84b340abb5432e536a680b6a0f6c5f07",
+        "flow.yaml": "sha256:382f21c9782ed8e691abe9e9ca4f3c238957b1b7bf4269283a3998152bedc91c",
+        "scripts/flow.sh": "sha256:ca2a0dc2bb9ba575b2217bdfeb4d05a2e6ff26a5ca7a109ef13ab8bf471bbc9b"
+      }
+    },
     "explain": {
       "source": "https://github.com/entireio/skills/skills/explain",
       "type": "github-subdir",
@@ -25,75 +53,6 @@
       "commit": "11902e22deddf7b867ea1cf958c0220288be4d63",
       "file_hashes": {
         "SKILL.md": "sha256:27df00caeb6ac004ba4b389734ec009f05cb8576b53fe924ed165804d65f9f39"
-      }
-    },
-    "layered-rails": {
-      "source": "https://github.com/palkan/layered-rails-skills/layered-rails/skills/layered-rails",
-      "type": "github-subdir",
-      "installed_at": "2026-11-04T18:19:59.553421429-03:00",
-      "repo_url": "https://github.com/palkan/layered-rails-skills.git",
-      "subdir": "layered-rails/skills/layered-rails",
-      "version": "8fb4b26",
-      "tree_hash": "099d7fa14007e5160e95210ba0ce7dbe120d4b87",
-      "commit": "8fb4b26b674dc01612d582f0328bc6cf9bb0ce85",
-      "file_hashes": {
-        "SKILL.md": "sha256:95cf340ce7de6c8d9529506dd009ef2b2265336ecc42e2af9b3529f786fc826f",
-        "examples/authorization-to-policy.md": "sha256:b8967644ab4a82b0b367b03922573258c1fb6cc059bc6193c7b73bb9c501fbab",
-        "examples/callbacks-to-service.md": "sha256:e6026481886d71536905390edbf81bc550c491753cf958d383a9379f0ae125cb",
-        "examples/complex-input-to-form-object.md": "sha256:24ca817df9bb61f7a82151be01428e7d5800126df66c74ceccdc44ffdc71d5f9",
-        "examples/current-from-model.md": "sha256:f0667dc7dd260dad97cbfb81d9f717cee87ce504739ec2b6189a5bd3090c0907",
-        "examples/god-object-decomposition.md": "sha256:ba0d6884381315559f4d13d642177be9ee0b2ed55ab65d7276c88db45510ae93",
-        "examples/implicit-to-explicit-state-machine.md": "sha256:b35a2baf455e61079937a729767ac618c5d7cc4b1d53a22ef2ec111500f69c1c",
-        "examples/query-to-query-object.md": "sha256:f0cf54b2704120ab6969d3727e4428a30eff75ca95b4a654ccae642a4ffe477b",
-        "examples/view-logic-to-presenter.md": "sha256:fd13e09460bb69549761b4a14c1cae79afe939ec710f918234e0f5edbcd1585e",
-        "references/anti-patterns/callbacks.md": "sha256:2e090f3eb5582c376eea7a20b68396bb5ec186b49a9e80a77e18d228b9e345c4",
-        "references/anti-patterns/concerns.md": "sha256:a90b63850fb6072377acff3805a5989393997f8deddd5bb07bc6427b6ee57b51",
-        "references/anti-patterns/helpers.md": "sha256:96e1fd23abdee632022d685e63e1dcc2a2bb83e330bc9c88d8ca65a7cf960af8",
-        "references/anti-patterns/jobs.md": "sha256:13f9576f5f4e666bd2def0b0998f5bf44e1a543fbcca7dc35f1b33b583d05f63",
-        "references/anti-patterns/layer-violations.md": "sha256:48c04a89ec901b4f325b2d5db0227b0929429b6cd02f81647ee71313ede95895",
-        "references/anti-patterns/service-objects.md": "sha256:96dc3dbc9fc3bb5ae999ed0d55667e9cbfad56b5e52faab1b171dc8ad316e990",
-        "references/anti-patterns/testing.md": "sha256:bc24968aae252651b2c79e7c18bc3a2a4d5a68bef87968956e572a7daaca1ff3",
-        "references/core/architecture-layers.md": "sha256:0a11f0dc24950c2a586ec47bbaf5210696cb5bd9101bcf0aa7bc01bd5aacf800",
-        "references/core/extraction-signals.md": "sha256:0413b9bcfca9441555e0b5c43f0a8a4d296a78dbb04f9b5692de139fb3c06ed0",
-        "references/core/specification-test.md": "sha256:535e733d009435079fcca5ce15757ea97ff91ac3081425f5da75fe012baee8a9",
-        "references/gems/action-policy.md": "sha256:f56a9354d3d9596cbc62d5ab6de1a554e0137b597c4ea21f33bb07ec21c02d9c",
-        "references/gems/active-agent.md": "sha256:28dbc84ce2b2d9ee805ee2705c03acc45b97370fb6a0c22397a50d534f4be619",
-        "references/gems/active-delivery.md": "sha256:21cf1c373c73f866690eef7d0cf789abc25540d1d22125d175ec0a0dd554e144",
-        "references/gems/active-job-performs.md": "sha256:649038dc4527fbf04a15328a9c85e3ffcf7a51dfc04b720d927c96a1d6cef5f5",
-        "references/gems/alba.md": "sha256:31f18edc7d34c02a4b81fbc1ce426f062aa312ce7bdf59dce9ddf36a41bc7a00",
-        "references/gems/anyway-config.md": "sha256:027d9cb3f2945d73d19aa05b0801a999c93134c7203fff9b0705bbcf5a114701",
-        "references/gems/archspec.md": "sha256:5799d8ce38f1b6bdc6b2a247cd81f1d4a26601a546bb10aaad48c13d42e3b62f",
-        "references/gems/rubanok.md": "sha256:f6187c54d95fb1e04853ea719f74fcf4fcfdb8b176e6cfe1dce1239d9dc6dae3",
-        "references/gems/view-component.md": "sha256:eec0bdf94ff669f1646191a3f88104ce826c96736d1990b098a35477d4156402",
-        "references/gems/workflow.md": "sha256:523eafda1331df21f53482990f442fad3cf298f27cbb47dc6286eac1d6c08554",
-        "references/patterns/collaborator-objects.md": "sha256:77c38a9fad7ff4c7d05a9b845c86a263aaa1c8e6efbee89fd4057df0ee9df50d",
-        "references/patterns/concerns.md": "sha256:a18d4a15741519a5b5b462dff7b6294d4cbf3cdf6c9b52b9a5794b95b4d5d7bd",
-        "references/patterns/filter-objects.md": "sha256:3bcc741eae49b3ef9d7104e28eb1997fe52e727e4d9f64b64235cf6857332857",
-        "references/patterns/form-objects.md": "sha256:42bb17e80ddb67f3615e0be1fd66c1074676b9af86e37b031e80dbb4d642a022",
-        "references/patterns/policy-objects.md": "sha256:d1418cc4207c24488536f2a24bbe655ba9814fbb3bafe92573c5a79b4e4f4dc4",
-        "references/patterns/presenters.md": "sha256:1752a030a97332d72da48b67c20ba74ed97446d65dbccd66d693ceec9139efc2",
-        "references/patterns/query-objects.md": "sha256:17df1fc5d88635a50800b13c610f684d773d927dd94e9556075965fea26babec",
-        "references/patterns/repositories.md": "sha256:b98168e7df3c42a64274f64c6b1a7556d3f5b61fe25bf9b1da6946dafed11ff2",
-        "references/patterns/serializers.md": "sha256:0e9f7e8775c9f9b45fc55dfe10f7f7ee3c0990e40a583907a0b656e755f532c7",
-        "references/patterns/service-objects.md": "sha256:16e84a2075f4a4ad5979edda14a793c0f18fda3e2e09ef3ed833b1ee9746692d",
-        "references/patterns/state-machines.md": "sha256:6c7ad2d9f16e96fbe63ad205061718e2311a53d8f03077bd413229427da32f86",
-        "references/patterns/value-objects.md": "sha256:9ed3e9ee7182fd32ae0272ec92136965ca8f4ddad5ff1c2ae0a38d5e02c49fc0",
-        "references/topics/ai-integration.md": "sha256:8e0ec3446f0383af4b13db031b80ae5395e3db52fe6a5e23437b3821d479156f",
-        "references/topics/authorization.md": "sha256:774aa7ffa207874020740b6eee765b07c2646f91daff05c6fbe56855dd5e623b",
-        "references/topics/callbacks.md": "sha256:01b1733fc1d06f53e2fc6be6cf46b1cd55e72e93db45f06be6cb010cdf04ff4f",
-        "references/topics/configuration.md": "sha256:afde2f9d48d71ccb1530467e598e83a5a5647012ebdfdd3d5cea0b3db0d47cd4",
-        "references/topics/current-attributes.md": "sha256:78e6c586d60366e14ade374bf3d9fbfb6b025b53d5a44dca8925ef9c3b000289",
-        "references/topics/instrumentation.md": "sha256:068908e58b0887cd47fbc8390a13db933f4add2830b8d826f2f042a9e1394694",
-        "references/topics/notifications.md": "sha256:24aefa810677a746e1683f7e2209548f1d2f184f085764a03416b794bdfd1127",
-        "references/topics/view-components.md": "sha256:2776d46b97335bc98ce4ce092f62402bb14e9f788be393c39bd74ba2be4e9558",
-        "workflows/analyze-callbacks.md": "sha256:505bc54615676161d274f1e4ac86ae8661216927670594876c18a82ba545e7f2",
-        "workflows/analyze-gods.md": "sha256:bc3b466244c0cdc775a333b400ee522d2aa7317f0da0fefc26876954b585e05f",
-        "workflows/analyze-services.md": "sha256:cfdc067bf6dbafddd772120dc6a986350496732b8b13d9940641aad0c706b5fb",
-        "workflows/analyze.md": "sha256:ebd525bc74098f7fd2a3892c9f3164a30055a9f825692d11e9b9c4f97b321662",
-        "workflows/archspec.md": "sha256:88027671b55230504bde4cc90e432d03c2412df3f1435698f939151bddd57ab3",
-        "workflows/plan.md": "sha256:2ccad2e850b89938af805ba212329bdde0b7d2355c503518dde2d3df861c43e9",
-        "workflows/review.md": "sha256:e575f38efae31e723d98284f7fbe1b7a5f47ed2b248a9baf13fe8177d7a98b77",
-        "workflows/spec-test.md": "sha256:689f9e7ba1df0084c6893dcd2d219e15f63c451a1bb28037a46c67e744307892"
       }
     },
     "recall": {
@@ -191,22 +150,22 @@
     "skillshare": {
       "source": "https://github.com/runkids/skillshare.git/skills/skillshare",
       "type": "github-subdir",
-      "installed_at": "2026-11-12T18:55:01.673594625-03:00",
+      "installed_at": "2026-11-13T14:50:10.268265757-03:00",
       "repo_url": "https://github.com/runkids/skillshare.git",
       "subdir": "skills/skillshare",
-      "version": "f1faa4b",
-      "tree_hash": "74beb7366663d663f791bef57927a4efd8696707",
-      "commit": "f1faa4bdd5faa163ce50dcf9350c3a2622884486",
+      "version": "d04d04f",
+      "tree_hash": "16ebf72c5d345fa0b456a431f19b5a01489cecfd",
+      "commit": "d04d04fd93253725166b6ca86c8567dbca532a94",
       "file_hashes": {
-        "SKILL.md": "sha256:d9820b5008a262e5e105790e75c961fb714507a2088912b80015ca26a19d4427",
+        "SKILL.md": "sha256:2bf47965d70b89306f98eecc25938ca8e4ad886092162eaa40f26d7a62fd2d3c",
         "references/TROUBLESHOOTING.md": "sha256:6964001f3f1fcbaadf0daae7478724ffd12196c20c7b3762876385670660cd99",
         "references/audit-review.md": "sha256:8ce54d8440a56078da8d7a1849000ae985346c950de3c49164eab21049ff2924",
-        "references/audit.md": "sha256:8710d6d7c5a21219e5d1f19882f0261a2c1ac833d91fd8ed307def5daf8f5bdc",
+        "references/audit.md": "sha256:d2050d8d33c0829836bd9b37e68660a9b57163dec6cfefac13f5d1cb14025814",
         "references/backup.md": "sha256:d794b66b18120cfaae0dcb3773031a08426895fd618d02393337a1eb57f98f6f",
         "references/extras.md": "sha256:0845bb01f48b1ee6c91eee756319e301b224cec0f944b90dbee370934d0dbb57",
         "references/hooks.md": "sha256:de0f7c4261adfc9cd1aaa409ff484676c694e45011458d5885afb9108619e07d",
         "references/init.md": "sha256:bd5206d3f614c6c32b1c930cc07dd93fe893bb041838af12b612f17f55af78e3",
-        "references/install.md": "sha256:16533f40b47b0da461f6c8a9fbee772ed726b57b2cf3c665bd3cb8823937ad8c",
+        "references/install.md": "sha256:0e9123411afcfc67441d3494729d4ce3a77e77cac118a16a9585d01226f606f5",
         "references/log.md": "sha256:f726e59328ac1cb367cd7d5eaa257149d7f56ef5c650d9e0f9c7a091c0f9c442",
         "references/mcp.md": "sha256:a46bc834c4ec4ffd815bd68090883e8d669097441296d0e5cfcd36dde51ecb5e",
         "references/memory-review.md": "sha256:e9fabed005f282c6702788bfe1a01aeca986184d48eadccf3ef0e9f4e465f5e3",
@@ -258,13 +217,5 @@
         "SKILL.md": "sha256:c4f21d0ddcb9a766e481e50e3de6cf52634eaeef8f6631bbc432984b840498dc"
       }
     }
-  },
-  "audit_accepted": {
-    "layered-rails": [
-      "0c634e43e9de357240c0b3104bda09761d22223f6620c25faa4312140f1be57b",
-      "4592bc11015ea9ff85e98afa41fd3878f6478890fa8f83d64f422b6b16df0812",
-      "497b55edc7094d0494a7daed2a4df8c0aee8e58a701d703be9918c99af2a2bbf",
-      "c4549324b16f1a037c138055663382100100b5bb6aea940b1a89125153c9ae1b"
-    ]
   }
 }
