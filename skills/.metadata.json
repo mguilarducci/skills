@@ -20,7 +20,7 @@
       "installed_at": "2026-11-13T17:18:40.399556744-03:00",
       "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
       "subdir": "skills/bonde-brainstorming",
-      "version": "4feaae0",
+      "version": "ba58674",
       "tree_hash": "db1fafb24187086ebc025895b1e4100ca591547d",
       "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
       "file_hashes": {
@@ -29,17 +29,17 @@
       }
     },
     "bonde-config": {
-      "source": "github.com/mguilarducci/bonde-skills/skills/bonde-config",
+      "source": "https://github.com/mguilarducci/bonde-skills.git/skills/bonde-config",
       "type": "github-subdir",
-      "installed_at": "2026-11-13T17:18:40.417919984-03:00",
+      "installed_at": "2026-11-13T18:32:51.320348305-03:00",
       "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
       "subdir": "skills/bonde-config",
-      "version": "4feaae0",
-      "tree_hash": "d32a8aeaa87e5aabbfa0b3b39923ebfa44c87a7e",
-      "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
+      "version": "ba58674",
+      "tree_hash": "5c555179a91495aae6ab824265ec9d3f1f9560b6",
+      "commit": "ba5867450a9b099d5601088b3db69a099dd0d092",
       "file_hashes": {
-        "SKILL.md": "sha256:d96c9cdd481993a94e887650c8ac311274e0e775f99fcc4072e95cf82dee9a6f",
-        "config.yaml": "sha256:d27a012ddb811ddf6e8a6e602d026b9afcdb160a221d8134947f75f01632e18e",
+        "SKILL.md": "sha256:dbf88f19059a6782439bcc66dce6c1d11d6ad3bc7c10e51751513cf436ca4368",
+        "config.yaml": "sha256:a735daf060e10e8e1ec4b0957f7df14ae19efada32bfacfd84691747cd7c4716",
         "scripts/config.sh": "sha256:606b3492b00974430bb53a76ecf5b4313997c4e71383f8e85f37ae4e1a5fdfc4"
       }
     },
@@ -49,7 +49,7 @@
       "installed_at": "2026-11-13T17:18:42.615489813-03:00",
       "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
       "subdir": "skills/bonde-intent-create",
-      "version": "4feaae0",
+      "version": "ba58674",
       "tree_hash": "55a2816983e11947f1634a122c8bd540c5766b60",
       "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
       "file_hashes": {
@@ -62,7 +62,7 @@
       "installed_at": "2026-11-13T17:18:40.437652981-03:00",
       "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
       "subdir": "skills/bonde-intent-enrichment",
-      "version": "4feaae0",
+      "version": "ba58674",
       "tree_hash": "83a5ee20d3bf991f578d572175642725ff598129",
       "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
       "file_hashes": {
@@ -75,7 +75,7 @@
       "installed_at": "2026-11-13T17:18:40.453320743-03:00",
       "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
       "subdir": "skills/bonde-record",
-      "version": "4feaae0",
+      "version": "ba58674",
       "tree_hash": "8e0be352af1ebd0380cb058b1d0e9916a6cc319e",
       "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
       "file_hashes": {
@@ -88,7 +88,7 @@
       "installed_at": "2026-11-13T17:18:40.464107003-03:00",
       "repo_url": "https://github.com/mguilarducci/bonde-skills.git",
       "subdir": "skills/bonde-trail",
-      "version": "4feaae0",
+      "version": "ba58674",
       "tree_hash": "16e2145e2509fe1e1c12dd850506bc23d0f8d919",
       "commit": "4feaae0aa7c72a7ef61969311cf66a222cce8985",
       "file_hashes": {

@@ -30,12 +30,14 @@ flow:
       stages:
         - name: <bonde-stage value>
           command: <command that starts the step ending in this stage>  # optional
+          machine: <hc machine where that step's work runs>              # optional
 ```
 
 - **Order** is the list order: phases in order, stages in order within each phase. There is no order field.
 - **Phase of a stage**: the phase whose `stages` list contains it.
 - **Next command after stage S**: the `command` of the stage right after S. S's own `command` is the one that led to S, never the next one. If S is the last stage of its phase, take the first stage of the next phase that has stages. If no stage follows S, there is no next command: say the flow defines no next step yet.
 - **Stage without `command`**: it is reached inside the step that led to the stage before it, with no command of its own. So the command that led to it is that previous stage's `command`. When the stage right after S has no `command`, the next command is S's own `command`: that step continues to the next stage (if it is still running in this session, just continue it; otherwise running it again resumes it).
+- **Machine of a stage**: its `machine`, an hc machine name (`hc machine ls`). Without it, the work runs on this machine.
 - **Unknown stage**: if S is not in the flow, say so and show the `# flow: from` path. Don't guess.
 
 ### `specs`
