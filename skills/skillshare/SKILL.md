@@ -9,7 +9,7 @@ description: |
   noninteractive automation, and guidance for the terminal UI.
 argument-hint: "[command] [target] [--json] [--dry-run] [-p|-g]"
 metadata:
-  version: v0.30.9
+  version: v0.30.7
 ---
 
 # Skillshare CLI
@@ -116,9 +116,7 @@ remote dependencies with `install` without a source. For full flag details and a
 read [install.md](references/install.md) and [sync.md](references/sync.md).
 
 To use a local skills checkout in place, run `skillshare link <path> --enable`, then
-`sync`; `skillshare unlink <name>` moves only the link to trash and, in global mode,
-forgets its tracked-repository record and audit acceptances. A metadata warning means the link
-is gone but its record may remain; resolve the metadata error before installing again. Its target stays untouched. Read
+`sync`; `skillshare unlink <name>` removes only the link. Read
 [TROUBLESHOOTING.md](references/TROUBLESHOOTING.md) for how such links are followed.
 
 ### Disable or remove
@@ -134,10 +132,7 @@ skillshare sync
 ```
 
 Run the requested operation, not this entire example sequence. Quote glob patterns so
-Skillshare receives them unchanged. Disabling uses ignore rules; uninstall of installed
-content uses trash. A global tracked declaration without a checkout is removed as
-metadata only, with no trash undo; see [install.md](references/install.md#uninstall)
-for canonical names, occupied paths, and the limit after reconcile.
+Skillshare receives them unchanged. Disabling uses ignore rules; uninstall uses trash.
 
 ### Move skills into folders
 
