@@ -54,7 +54,12 @@ skillshare mcp serve --check [--target NAME]         # List skipped, editable an
 - `mcp check --live [--timeout 10s]` also starts each local server (your environment plus
   its `env`) and POSTs to each remote one, skipping servers with a static error. A 401 is a
   warning with the resource metadata URL; it never signs in. Use it only for trusted
-  servers. `--json` adds `live: {protocolVersion, serverInfo, tools, toolNames}`.
+  servers. `--json` adds `live: {protocolVersion, serverInfo, tools, toolNames, toolTokens}`; the
+  info line shows `~N tokens`, an estimate of every tool's name, description and schema, saved
+  per server in `mcp/tool-costs.json` (a cache). The text output of `mcp check --live`, `analyze`,
+  `sync mcp` and the dashboard Context page add these up per MCP target (a project root also
+  counts the global servers it keeps on) and warn above `context_budget.warn_mcp_tool_tokens`
+  (default 30000, `0` disables); uncounted servers are listed, not counted as 0.
 - `mcp check --live` also pins each tool's definition (hash of name, description and input
   schema) on a server's first probe, in `mcp/tool-pins.json` of the state directory. Later
   probes warn (`tool-change`) about a changed or new tool and note a removed one; the pin is
@@ -491,9 +496,15 @@ mcp:
   - Removing a shared server, or setting it back to global, clears it from every `use` list.
   - `mcp list` adds a `shared` row per shared server with its projects; `mcp list --json` has
     a top-level `shared: [{name, projects}]`.
-  - No command edits `use` and existing per-project copies are not converted. Edit
-    `config.yaml`, or use the dashboard: **Loads in** in the server dialog, and
-    **Opt-in servers** on a project's **MCP** tab.
+  - A root's `overrides: {<name>: {...}}` changes a shared server it uses for that root only:
+    `targets` and `tools` replace the server's, `piOptions` and `options` merge key by key.
+    `command`, `args`, `url`, `headers` and `env` cannot be overridden. Dropping the server from
+    that root's `use`, removing it, or making it global drops the override.
+  - No command edits `use` or `overrides`, and existing per-project copies are not converted. Edit
+    `config.yaml`, or use the dashboard: **Loads in** in the server dialog or
+    **Projects** in a shared server's expanded row on the **MCP** page, and
+    **Opt-in servers** on a project's **MCP** tab. Both places open an **Override** dialog
+    for a project that uses the server; saving it replaces that root's override.
 - The preview names the file when one server appears in several places.
 
 ## Interactive use
