@@ -123,8 +123,14 @@ skillshare upgrade --dry-run    # Preview
 `upgrade --skill --force` installs without that prompt. Use this only when installation
 is requested. `init --skill` also opts in explicitly.
 
+**Disabled built-in skill:** when `.skillignore` disables it, sync leaves it out of
+every target and `doctor` and `status` warn. Run `skillshare enable skillshare -g && skillshare sync -g`.
+
 **Nix installs:** the CLI binary is never replaced, even with `--force`; `upgrade` prints
 `nix profile upgrade skillshare` or says to rebuild the Nix configuration. The skill still updates.
+
+**PyPI installs** (`skillshare-cli` from uv, pipx or pip): the CLI binary is never replaced, even with
+`--force`; `upgrade` prints the installer's command, such as `uv tool upgrade skillshare-cli`. The skill still updates.
 
 **After upgrading skill:** `skillshare sync`
 
