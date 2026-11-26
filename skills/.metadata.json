@@ -21,12 +21,6 @@
         "agents/openai.yaml": "sha256:bdffbc5a0a99ed1b6ef3253d251d755fd18162b9845972e380007f844b09b05c"
       }
     },
-    "beta/_mattpocock-skills": {
-      "source": "https://github.com/mattpocock/skills.git",
-      "tracked": true,
-      "group": "beta",
-      "branch": "main"
-    },
     "chief-of-staff": {
       "source": "https://github.com/mattpocock/skills/skills/in-progress/chief-of-staff",
       "type": "github-subdir",
