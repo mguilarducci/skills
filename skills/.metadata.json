@@ -1,11 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "_bonde": {
-      "source": "https://github.com/mguilarducci/bonde-skills.git",
-      "tracked": true,
-      "branch": "main"
-    },
     "ask-matt": {
       "source": "https://github.com/mattpocock/skills/skills/engineering/ask-matt",
       "type": "github-subdir",
